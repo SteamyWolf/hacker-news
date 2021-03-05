@@ -1,0 +1,54 @@
+.spinner {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.story-container {
+    display: flex;
+    background-color: rgb(246, 246, 240);
+    padding: 7px 0;
+}
+.story-number {
+    width: 25px;
+    text-align: center;
+    font-size: 1.1rem;
+    color: #828282;
+}
+
+.story-content {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5px;
+}
+.story-title {
+    font-size: 1.1rem;
+}
+.story-title span {
+    font-size: 0.9rem;
+    color: #828282;;
+}
+
+.sub-story {
+    display: flex;
+    color: #828282;
+}
+.points {
+    font-size: 0.8rem;
+    border-right: 1px solid #828282;
+    padding-right: 3px;
+}
+.hide {
+    font-size: .8rem;
+    padding-left: 3px;
+    padding-right: 3px;
+    border-right: 1px solid #828282;
+}
+.comments {
+    font-size: 0.8rem;
+    padding-left: 3px;
+}

@@ -1,0 +1,19 @@
+<div class="spinner" *ngIf="loading">
+    <mat-spinner></mat-spinner>
+    Please wait while your data is processing...
+</div>
+
+<div class="story-container" *ngFor="let story of stories; let i = index">
+    <div class="story-number">{{ i + 1 }}.</div>
+    <div class="story-content">
+        <div class="story-title">
+            {{ story.title }}
+            <span>{{ story.url }}</span>
+        </div>
+        <div class="sub-story">
+            <div class="points">{{ story.score }} points by {{ story.by }} {{ story.time }} {{ story.type }} ago</div>
+            <div class="hide">hide</div>
+            <div class="comments">{{ story.descendants }} comments</div>
+        </div>
+    </div>
+</div>
